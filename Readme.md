@@ -1,6 +1,5 @@
 # Gym Management System
 
-Project Name
 This project is a part of my personal project and it includes the login and registration sections for the user.
 
 Technologies
@@ -26,6 +25,3 @@ Add Javascript functionality
 Improve user interface
 Contributing
 Contributions to this project are welcome. If you have any suggestions or ideas, feel free to open an issue or pull request.
-
-License
-This project is licensed under the [insert your chosen license here] license. See the LICENSE.md file for details.
