@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="loginPageStyleSheet.css">
+</head>
+
+<body>
+    <div class="headLogo">
+        <a href="index.html">GYM</a>  <br> MANAGEMENT <br> SYSTEM
+    </div>
+    <div class="contaner">
+
+        <div class="loginBox">
+            <div class="loginTitle">
+                <h2>Register</h2>
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <label for="email">Email <br></label>
+                    <input type="email" id="email" placeholder="email" required>
+
+                </div>
+                <div class="inputBox">
+                    <label for="phno">Contact Number <br></label>
+                    <input type="text" id="phno" placeholder="Phone Number" pattern="[0-9]{10}" required>
+
+                </div>
+                <div class="inputBox">
+                    <label for="username">User Name <br></label>
+                    <input type="text" id="username" placeholder="username" required>
+
+                </div>
+                <div class="inputBox">
+                    <label for="password">Password <br></label>
+                    <input type="password" id="password" placeholder="password" required>
+
+                </div>
+                <div class="inputBoxRemeber">
+                    <label for="rememberMe"><input type="checkbox" name="checkbox" id="rememberMe">Remember me
+                        <br></label>
+
+                </div>
+                <button class="submitBtn" type="submit">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="loginPage.html">Login</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("Images/834264-033.jpeg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+.headLogo{
+  text-align: left;
+  font-size: 50px;
+  font-family: "Poppins", cursive;
+  font-weight: 700;
+  color: #ff0000;
+}
+
+.headLogo a{
+    text-decoration: none;
+    color: red;
+}
+
+.container{
+    position: relative;
+}
+
+.contaner{
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(99, 95, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputBox{
+    text-align: left;
+    
+}
+
+.inputBox input{
+    width: 100%;
+    outline: none;
+}
+
+.inputBox .remeber{
+    display: flex;
+}
+
+.submitBtn{
+    padding: 5px 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: .3s;
+}
+.submitBtn:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+.submitBtn:active{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
